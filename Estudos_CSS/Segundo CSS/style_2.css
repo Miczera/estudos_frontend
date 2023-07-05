@@ -1,0 +1,24 @@
+li a{
+    color: red;
+}
+
+h1 + h4{
+    border: 2px solid;
+}
+
+ a[href='/recibo']{
+    color: blue;
+ }
+
+li:nth-of-type(2){
+    color: purple;
+}
+
+div{
+    border: 2px solid;
+}
+
+div ol{
+    border: inherit;
+}
+

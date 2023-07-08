@@ -7,8 +7,11 @@ p{
 }
 
 h1{
-    text-align: center;
     text-decoration: underline;
+    margin: 85px auto 200px auto;
+    width: 15%;
+    border: 2px solid;
+    padding: 10px;
     
 }
 

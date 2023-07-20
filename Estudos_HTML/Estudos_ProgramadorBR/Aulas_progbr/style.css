@@ -1,0 +1,29 @@
+.back{
+    width: 800px;
+    height: 300px;
+    /*background-color: blue;
+    background-image: url(image/dhl-logo.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;*/
+    background: red url(image/dhl-logo.jpg) no-repeat right;
+    background-size: cover;
+}
+
+p{
+    width: 300px;
+    background-image: url(image/dhl-logo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.verde{
+    height: 100px;
+    background-color: green;
+    background: linear-gradient(to right,red,green);
+}
+
+#fotodhl{
+    width: 500px;
+}

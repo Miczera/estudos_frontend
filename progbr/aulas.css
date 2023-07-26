@@ -90,3 +90,67 @@ body{
 img{
 
 }
+
+a{
+    background-color: blueviolet;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+a:visited{
+    background-color: blue;
+}
+
+a:hover{
+    padding: 20px;
+    background-color: black;
+}
+
+a:active{
+    background-color: #444;
+}
+
+ul{
+    
+}
+
+li{
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ol{
+    background-color: #999;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.card{
+    background-color: #eee;
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+}
+
+.tagli{
+    background-color: #cceaff;
+    border: 1px solid #5cabef;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tagol{
+    padding: 30px;
+    list-style: upper-alpha;
+}

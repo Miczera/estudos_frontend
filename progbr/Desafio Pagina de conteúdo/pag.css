@@ -1,0 +1,70 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#top-bar{
+    background-color: #333;
+}
+
+#titulo-principal{
+    margin: 0;
+    padding: 20px;
+    border-bottom: 8px solid rgb(255, 123, 0);
+    color: white;
+    text-align: center; 
+    font-size: 25px;  
+}
+
+/* container do conteudo inteiro, limitando o espaço*/
+#container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*header*/
+header{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.img-sociais{
+    width: 30px;
+    padding: 5px;
+}
+/*header*/
+
+
+
+#titulo-segundario{
+    font-weight: 800;
+}
+
+
+
+
+
+#content{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.img-content{
+    height: 400px;
+}
+
+
+
+footer{
+    height: 100px;
+    background-color: #333;
+}
+
+
+
+/*Fonte: Open Sans (google fonts)
+Cores das fontes: #555, #111
+Cor dos links: #fd8a24
+Cor da top bar e da footer: #333

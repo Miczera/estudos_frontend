@@ -1,4 +1,33 @@
+body{
+    padding: 0;
+    margin: 0;
+}
 
+/*header*/
+header{
+    text-align: center;
+    background-color: #ff6b28;
+}
+
+#img_logo_td_gostoso{
+    text-align: center;
+    padding: 20px;
+    width: 340px;
+}
+
+#img_bolo{
+    width: 100%;
+}
+/*header*/
+
+/*Content*/
+
+/*Content*/
+
+
+
+/*footer*/
+/*footer*/
 
 
 /*

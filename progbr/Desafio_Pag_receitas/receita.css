@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Lato', sem serifa;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 /*header*/
@@ -24,56 +24,63 @@ header{
     object-fit: cover;
     object-position:0 23%;
 }
-
-
 /*header*/
 
 /*Content*/
-h1,h2{
+h2{
     color: #ff6b28;
+    padding: 180px 0 30px 0;
+    font-size: 1em;
 }
 
 #container{
     /*background-color: rgb(194, 178, 178);*/
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
     padding: 50px 0 50px 0;
     font-size: 2em;
 }
 
 #content{
-    max-width: 70%;
+    max-width: 75%;
     margin: auto;
 
 }
 
 h1{
+    color: #ff6b28;
     padding-left: 40px;
+
 }
 
-h2{
-    padding-top: 80px;
+p, li{
+   font-size: 0.8em;
+}
+li{
+    padding-bottom: 20px;
 }
 
 input{
     background-color: #ff6b28;
     color: white;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 300;
     padding: 20px;
     border-radius: 30px;
     border: none;
 }
 
-#ingredientes{
-    cursor: pointer;
+#ingredientes:hover{
+    cursor:  url(image/cursor_ingredientes.png), auto;
 }
 
-#Ingredientes:hover{
-    cursor:  url(image/cursor_ingredientes.png);
-
+#preparo:hover{
+    cursor:  url(image/cursor_preparo.png), auto; 
 }
 
+#instruçoes:hover{
+    cursor:  url(image/cursor_intrucoes.png), auto; 
+}
 /*Content*/
 
 /*footer*/
@@ -82,10 +89,24 @@ footer{
     color: white;
     height: 80px;
     text-align: center;
-    padding: 30px 0 20px 0;
-    font-size: 2em;
+    padding: 30px 0 0 0;
+    font-size: 1.2em;
+    margin-top: 50px;
 }
 
+#email_para_contato{
+    color: white;
+    text-decoration: none;
+}
+
+#email_para_contato:hover{
+    color: #ff6b28;
+    text-decoration: underline;
+    border: white solid 2px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
 /*footer*/
 
 

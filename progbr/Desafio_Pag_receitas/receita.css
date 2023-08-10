@@ -55,6 +55,9 @@ h1{
 p, li{
    font-size: 0.8em;
 }
+p{
+    line-height: 35px;
+}
 li{
     padding-bottom: 20px;
 }
